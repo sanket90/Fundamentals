@@ -55,11 +55,11 @@ describe('base', () => {
         expect(this.baseObj.varBool).toEqual(true)
     });
 
-    it('should have variable \'varArr\' with array []', () => {
+    it('should have variable \'varArr\' with value []', () => {
         expect(this.baseObj.varArr).toEqual([])
     });
 
-    it('should have variable \'varObj\' with obj {}', () => {
+    it('should have variable \'varObj\' with value {}', () => {
         expect(this.baseObj.varObj).toEqual({})
     });
 
