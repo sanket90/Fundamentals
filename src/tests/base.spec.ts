@@ -1,4 +1,4 @@
-import * as base from '../core-fundamentals/base'
+import * as base from '../core/base'
 
 describe('base', () => {
     let baseObj : base.FunBase
