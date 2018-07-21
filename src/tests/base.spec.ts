@@ -59,11 +59,11 @@ describe('base', () => {
         expect(this.baseObj.varArr).toEqual([])
     });
 
-    it('should have variable \'varObj\' of type obj', () => {
+    it('should have variable \'varObj\' with obj {}', () => {
         expect(this.baseObj.varObj).toEqual({})
     });
 
-    it('should have variable \'varAny\' of type any', () => {
+    it('should have variable \'varAny\' with value 123 ', () => {
         expect(this.baseObj.varAny).toEqual(123)
     });
 
